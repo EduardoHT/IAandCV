@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/yolov8/train/images
+val: /content/drive/MyDrive/yolov8/valid/images
+test: /content/drive/MyDrive/yolov8/test/images
+
+nc: 8
+names: ['Goomba', 'Mario', 'caparazon', 'hoja', 'hongo', 'koopa', 'moneda', 'planta carnivora']
+
+roboflow:
+  workspace: nelson-delgado
+  project: mario
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nelson-delgado/mario/dataset/3
